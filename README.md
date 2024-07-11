@@ -27,7 +27,7 @@ WEATHER CLOTH is a Python application that fetches weather data for a specified 
    
    The requirements.txt file should contain:
    ```bash
-      python-dotenv
+   python-dotenv
    ```
 
 
