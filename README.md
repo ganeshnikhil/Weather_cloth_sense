@@ -12,8 +12,8 @@ WEATHER CLOTH is a Python application that fetches weather data for a specified 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ganeshnikhil/Weather_cloth.git
-   cd Weather_cloth
+   git clone https://github.com/ganeshnikhil/Weather_cloth_sense.git
+   cd Weather_cloth_sense
    ```
 2. Get api key from rapid api.
    ```bash 
@@ -31,7 +31,7 @@ WEATHER CLOTH is a Python application that fetches weather data for a specified 
    ```
 
 
-4. Create a `.env` file in the root directory (`Weather_cloth/.env`) and add your environment variables:
+4. Create a `.env` file in the root directory (`Weather_cloth_sense/.env`) and add your environment variables:
    ```plaintext
    # Example .env file for Rain Reminder project
 
@@ -51,12 +51,12 @@ WEATHER CLOTH is a Python application that fetches weather data for a specified 
 ## Directory Structure
 
 ```
-Weather_cloth/
+Weather_cloth_sense/
 ├── .env
 ├── README.md
 ├── requirements.txt
 ├── Backup/
-│   ├── reciever_email.html
+│   ├── test.html
 │        ...
 ├── Src/
 │   ├── weather_report.py
@@ -71,7 +71,7 @@ Weather_cloth/
 - **`README.md`:** This file, providing project overview, installation guide, and usage instructions.
 - **`requirements.txt`:** Lists Python dependencies (python-dotenv).
 
-
+- **`Backup/`:** Directory saves email content in a .html file.
 
 - **`Src/`:** Directory containing Python modules:
   - `weather_report.py`: Fetches weather data using API.
@@ -88,6 +88,8 @@ To run the script, specify the city name as a command-line argument:
 ```bash
 python main.py city_name
 ```
+** IF the name of city or area contains space between write it using this symbol `-`.
+
 **`MAC or LINUX`:**
 ```bash
 python3 main.py city_name
