@@ -88,7 +88,7 @@ To run the script, specify the city name as a command-line argument:
 ```bash
 python main.py city_name
 ```
-** IF the name of city or area contains space between write it using this symbol `-` **.
+IF the name of city or area contains space between write it using this symbol `-` .
 
 **`MAC or LINUX`:**
 ```bash
