@@ -10,7 +10,7 @@ WEATHER CLOTH is a Python application that fetches weather data for a specified 
 
 weather email  | weather email|
 |--------------|-------------|
-<img src="sample/1.png" width = "400"/>| <img src="sample/2.png" width="400"/> |
+<img src="sample/1.png" width = "500"/>| <img src="sample/2.png" width="500"/> |
 
 ## Installation
 
