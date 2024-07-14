@@ -8,6 +8,10 @@
 
 WEATHER CLOTH is a Python application that fetches weather data for a specified city, generates an HTML email with CLOTH recommendations, saves it to a file, and sends it via email using SMTP authentication.
 
+weather email  | weather email|
+|--------------|-------------|
+<img src="sample/1.png" width = "400"/>| <img src="sample/2.png" width="400"/> |
+
 ## Installation
 
 1. Clone the repository:
